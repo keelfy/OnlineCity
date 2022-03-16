@@ -14,6 +14,7 @@ namespace ServerCore.Model
         public string ServerName { get; set; } = "Another OnlineCity Server";
         public int SaveInterval { get; set; } = 10000;
         public int Port { get; set; } = SessionClient.DefaultPort;
+        public string IPAddress { get; set; } = null;
 
         /// <summary>
         /// RPG: Legend of the server, Краткое описание сервера

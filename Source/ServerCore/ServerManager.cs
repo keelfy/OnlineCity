@@ -147,7 +147,7 @@ namespace ServerOnlineCity
             Connect.ConnectionAccepted = ConnectionAccepted;
 
             Loger.Log($"Server starting on port: {ServerSettings.Port}");
-            Connect.Start(null, ServerSettings.Port);
+            Connect.Start(ServerSettings.IPAddress, ServerSettings.Port);
         }
        
         /// <summary>
